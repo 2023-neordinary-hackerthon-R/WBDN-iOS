@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88DCDC072B11E09000918BD6 /* ImageMetaDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DCDC062B11E09000918BD6 /* ImageMetaDataViewController.swift */; };
 		E5CF421F2B11C3F200A20D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CF421E2B11C3F200A20D28 /* AppDelegate.swift */; };
 		E5CF42212B11C3F200A20D28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CF42202B11C3F200A20D28 /* SceneDelegate.swift */; };
 		E5CF42232B11C3F200A20D28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CF42222B11C3F200A20D28 /* HomeViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88DCDC062B11E09000918BD6 /* ImageMetaDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMetaDataViewController.swift; sourceTree = "<group>"; };
 		E5CF421B2B11C3F200A20D28 /* WBDN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBDN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CF421E2B11C3F200A20D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5CF42202B11C3F200A20D28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88DCDC042B11E07600918BD6 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				88DCDC052B11E08000918BD6 /* ImageMetaData */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		88DCDC052B11E08000918BD6 /* ImageMetaData */ = {
+			isa = PBXGroup;
+			children = (
+				88DCDC062B11E09000918BD6 /* ImageMetaDataViewController.swift */,
+			);
+			path = ImageMetaData;
+			sourceTree = "<group>";
+		};
 		E5CF42122B11C3F200A20D28 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +156,7 @@
 		E5CF42382B11CE7400A20D28 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				88DCDC042B11E07600918BD6 /* Reference */,
 				E5CF42322B11CE5100A20D28 /* Application */,
 				E5CF42352B11CE5B00A20D28 /* Network */,
 				E5CF42342B11CE5700A20D28 /* Repository */,
@@ -259,6 +278,7 @@
 				E5CF42502B11D6B800A20D28 /* WoobamAPI.swift in Sources */,
 				E5CF42522B11D98300A20D28 /* MainTabController.swift in Sources */,
 				E5CF421F2B11C3F200A20D28 /* AppDelegate.swift in Sources */,
+				88DCDC072B11E09000918BD6 /* ImageMetaDataViewController.swift in Sources */,
 				E5CF424E2B11D48F00A20D28 /* NetworkService.swift in Sources */,
 				E5CF42212B11C3F200A20D28 /* SceneDelegate.swift in Sources */,
 			);
